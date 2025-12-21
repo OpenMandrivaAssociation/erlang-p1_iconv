@@ -13,6 +13,11 @@ License:    GPLv2
 URL:        https://github.com/processone/iconv/
 Source0:    https://github.com/processone/iconv/archive/%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: erlang-rebar
 
 
